@@ -1,0 +1,396 @@
+header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(../assets/images/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-pr_1258-66739.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px ;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tinos', serif;
+    color:rgb(221, 221, 221);
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    font-weight: 600;
+}
+.main_name{
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.main_name span{
+    color:rgb(221, 221, 221);
+}
+.central_main{
+        width: 1200px;
+        margin: 0 auto;
+}
+.main_of_page_about{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 150px;
+    text-align: center;
+    font-size: 20px;
+}
+header .left_conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    justify-content: end;
+    font-size: 20px;
+}
+.header_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_link a{
+    padding: 2px 4px;
+    margin-right: 10px;
+    color: rgb(221, 221, 221);
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.header_link a:hover{
+ color:black;
+ background-color: rgb(221, 221, 221);
+}
+.header_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_button{
+    margin-right: 10px;
+}
+.header_button a{
+    background-color:black;
+    color:rgb(221, 221, 221);
+    border:  3px solid rgb(221, 221, 221);
+    padding: 7px 5px;
+}
+.header_button a:hover{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+.special_event{
+    background-image: url(../assets/images/sushi-seafood-wallpaper-5120x2160_16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.special_event_button a{
+    background-color: rgba(240, 248, 255, 0);
+    font-weight: 600;
+    padding: 10px 5px;
+    font-size: 25px;
+    border: 3px solid rgb(221, 221, 221);
+    color:rgb(221, 221, 221);
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.short_text{
+    font-size: 20px;
+    text-align: center;
+    height: 300px;
+    padding:  0 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+}
+.description_part{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.description_conteiner{
+    height: 50%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description_text{
+    text-align: center;
+    width: 500px;
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+}
+.description_button a{
+    background-color: black;
+    font-weight: 600;
+    padding: 10px 5px;
+    font-size: 25px;
+    border: 3px solid rgb(221, 221, 221);
+    color:rgb(221, 221, 221);
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.description_button a:hover{
+    background-color:rgb(221, 221, 221);
+    color:black;
+}
+.special_event_button a:hover{
+    background-color:rgb(221, 221, 221);
+    color:black;
+}
+.location_information{
+    display: flex;
+    align-items: center;
+}
+.location_inf{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 23px;
+    padding-left: 10px;
+}
+.location_photo{
+    width: 50%;
+}
+.section_name{
+    margin: 0 auto;
+    font-size: 50px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu_title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(221, 221, 221);
+}
+.menu_description{
+    font-size: 20px;
+}
+.menu_button a{
+    font-size: 25px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    border: 3px solid rgb(221, 221, 221);
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.menu_button a:hover{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+.menu_content{
+    display: flex;
+    align-items: center;
+}
+.menu_dish_part{
+    width: 50%;
+}
+.menu_photo_part{
+    width: 50%;
+}
+.menu_conteiner{
+    display: flex;
+    align-items: center;
+}
+.dish_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.dish_ingredients{
+    font-size: 25px;
+    font-weight: 400;
+}
+.text_write{
+    width: 600px;
+    height: 40px;
+    border: 3px solid rgb(221, 221, 221);
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+    padding: 5px 8px;
+    font-size: 15px;
+    color:rgb(221, 221, 221);
+}
+.text_input .text{
+    font-size: 23px;
+    font-weight: 600;
+}
+.text_input{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.panels{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contact_button{
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0px 8px;
+    background-color: #24242400;
+    color: #fff;
+    border: 3px solid rgb(221, 221, 221);
+    font-size: 25px;
+    font-weight: 600;
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.contact_button:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+}
+.seating_preference{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.seat_pref{
+    margin-top: 15px;
+}
+.selection{
+    width: 150px;
+    height: 50px;
+    border: 3px solid rgb(221, 221, 221);
+    background-color:#24242400;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+    padding: 10px 10x;
+    font-size: 20px;
+}
+.selection_options{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.selection_options span{
+    font-size: 20px;
+    font-weight: 600;
+}
+select:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+}
+.select_opt{
+    background-color: #24242400;
+    color: rgb(221, 221, 221);
+}
+.selecet_block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    margin-top: -4px;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: -7px;
+}
+.footer_information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 0 10px;
+}
+.footer_information a{
+    color:rgb(221, 221, 221);
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.footer_information a:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+}
+.right_inf{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.links_to_other_websites{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+}
+.right_inf a{
+    margin-right: 10px;
+    padding: 2px 4px;
+}
+footer .powered_by{
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+}
+.link_to_signup a{
+    padding: 2px 4px;
+    border: 3px solid rgb(221, 221, 221);
+    transition: background-color 0.4s linear;
+    transition: color 0.4s linear;
+}
+.link_to_signup a:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+}
+.footer_box{
+    display: flex;
+    align-items: center;
+}
+.footer_img_link {
+    border-radius: 14px;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

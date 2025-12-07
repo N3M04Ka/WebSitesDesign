@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaTwitter } from "react-icons/fa";
 import girlImg from '../assets/images/girl.jpg'
 import dudeImg from '../assets/images/dude.jpg'
@@ -7,15 +6,14 @@ import dude3Img from '../assets/images/dude3.png'
 import girl2Img from '../assets/images/girl2.png'
 import girl3Img from '../assets/images/girl3.png'
 import dude4Img from '../assets/images/dude4.png'
-type Props = {}
 type CarouselItem={
     name:string,
     nick:string,
     img:string,
     text:string,
 }
-export default function CarouselSection({}: Props) {
-    let carouselArray:CarouselItem[]=[
+export default function CarouselSection() {
+    const carouselArray:CarouselItem[]=[
         {
             name:"Helen Guo",
             nick:"@HelenGuo_",

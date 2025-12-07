@@ -1,9 +1,7 @@
-import React from "react";
 import { MdOutlineLocalPostOffice } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
-type Props = {};
 
-export default function Header({}: Props) {
+export default function Header() {
     return (
         <div className="header">
             <div className="container">

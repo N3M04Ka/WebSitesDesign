@@ -1,10 +1,8 @@
-import React from 'react'
 import ObviImg from '../assets/images/obvi.png'
 import OverlandingImg from '../assets/images/overlander.png'
 import ParagonImg from '../assets/images/paragon.png'
-type Props = {}
 
-export default function Quotes({}: Props) {
+export default function Quotes() {
   return (
     <div className="quotes">
         <div className="container">

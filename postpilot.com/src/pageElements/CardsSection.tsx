@@ -1,13 +1,11 @@
-import React from 'react'
 import klaviyoImg from '../assets/images/klavio.png'
 import abandonedImg from '../assets/images/abandonedCartCampaign.png'
 import statsImg from '../assets/images/stats.png'
 import longShotImg from '../assets/images/longshot.png'
 import poststampImg from '../assets/images/poststamp.png'
 import designImg from '../assets/images/Design.png'
-type Props = {}
 
-export default function CardsSection({}: Props) {
+export default function CardsSection() {
   return (
     <div className="cardsSection">
         <div className="container">

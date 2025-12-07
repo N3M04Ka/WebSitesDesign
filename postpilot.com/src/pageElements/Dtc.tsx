@@ -1,4 +1,3 @@
-import React from 'react'
 import RunGumImg from '../assets/images/run the day.png'
 import RunGumT from '../assets/images/rungum.png'
 import BeardImg from '../assets/images/heydouglas.png'
@@ -7,9 +6,8 @@ import Provip20Img from '../assets/images/provip20.png'
 import Promix from '../assets/images/promix.png'
 import WeMeesYouImg from '../assets/images/we miss you.png'
 import scotchImg from '../assets/images/scotchporter.png'
-type Props = {}
 
-export default function Dtc({}: Props) {
+export default function Dtc() {
   return (
     <div className="dtc">
         <div className="container">

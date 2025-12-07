@@ -1,10 +1,8 @@
-import React from 'react'
 import img1 from '../assets/images/div.png'
 import img2 from '../assets/images/div.jpg'
 import img3 from '../assets/images/div (1).jpg';
-type Props = {}
 
-export default function TrendsAndInsights({}: Props) {
+export default function TrendsAndInsights() {
   return (
     <div className="trendsAndInsights">
         <div className="container">

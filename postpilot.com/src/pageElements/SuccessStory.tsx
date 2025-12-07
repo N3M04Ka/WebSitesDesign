@@ -1,12 +1,10 @@
-import React from 'react'
 import obviCardsImg from '../assets/images/obvicards.png'
 import obviImg from '../assets/images/obvi.png'
 import bulletProofImg from '../assets/images/bulletproof.png'
 import boomImg from '../assets/images/boom.png'
 import orbitBabyImg from '../assets/images/orbitbaby.png'
-type Props = {}
 
-export default function SuccessStory({}: Props) {
+export default function SuccessStory() {
   return (
     <div className="successStory">
         <div className="container">

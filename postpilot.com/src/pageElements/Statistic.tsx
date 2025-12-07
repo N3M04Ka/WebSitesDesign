@@ -1,8 +1,6 @@
-import React from 'react'
 import DirectImg from '../assets/images/directmail.png'
-type Props = {}
 
-export default function Statistic({}: Props) {
+export default function Statistic() {
   return (
     <div className="statistic">
         <div className="container">

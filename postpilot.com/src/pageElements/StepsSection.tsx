@@ -1,8 +1,5 @@
-import React from 'react'
 
-type Props = {}
-
-export default function StepsSection({}: Props) {
+export default function StepsSection() {
   return (
     <div className="stepsSection">
         <div className="container">

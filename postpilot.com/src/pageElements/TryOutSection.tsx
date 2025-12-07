@@ -1,9 +1,7 @@
-import React from 'react'
 import pawImg from '../assets/images/paw.png'
 import { IoMdStar } from "react-icons/io";
-type Props = {}
 
-export default function TryOutSection({}: Props) {
+export default function TryOutSection() {
   return (
     <div className="tryoutsection">
         <div className="container">

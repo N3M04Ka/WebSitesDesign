@@ -1,10 +1,8 @@
-import React from 'react'
 import { MdOutlineLocalPostOffice } from "react-icons/md";
 import ecoImg from '../assets/images/eco.png'
 import { BiEnvelope } from "react-icons/bi";
-type Props = {}
 
-export default function Footer({}: Props) {
+export default function Footer() {
   return (
     <div className="footer">
         <div className="container">

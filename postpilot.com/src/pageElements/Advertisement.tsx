@@ -1,10 +1,8 @@
-import React from 'react'
 import star from '../assets/images/star.png'
 import snax from '../assets/images/snax.png'
 import ad180 from '../assets/images/180daywin-back.png'
-type Props = {}
 
-export default function Advertisement({}: Props) {
+export default function Advertisement() {
   return (
     <div className="advertisement">
         <div className="container">

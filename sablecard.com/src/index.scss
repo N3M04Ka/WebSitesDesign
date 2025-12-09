@@ -8,6 +8,9 @@
     flex-direction: column;
     align-items: center;
 }
+button{
+    cursor:pointer;
+}
 a{
     color:white;
     text-decoration: none;
@@ -291,18 +294,19 @@ a{
     }
     .right{
         width:50%;
-        height: inherit ;
+        /* height: inherit ; */
         display: flex;
         justify-content: flex-start;
         background-color: #EBEBF1;
         .container{
             display: flex;
             justify-content: center;
+            gap:54px;
             >*{
-                overflow-y: auto;
+                overflow-y: hidden;
+                display: flex;
                 .group{
                     @include flex-col-center;
-                    border:1px solid red;
                     padding:27px 0;
                     width: fit-content;
                     gap:54px;
@@ -321,24 +325,26 @@ a{
                 }
             }
             .leftColumn{
+                @include flex-col-center;
                 .group{
-                animation: spin-down 5s linear infinite;
+                animation: spin-down 20s linear infinite;
                 }
             }
             .rightColumn{
-                /* .group{
-                animation: spin-up 5s linear infinite;
-                } */
+                @include flex-col-center;
+                .group{
+                animation: spin-up 20s linear infinite;
+                }
             }
         }
     }
 }
 @keyframes spin-down{
     from{
-        transform: translateY(0%);
+        transform: translateY(-100%);
     }
     to{
-        transform: translateY(100%);
+        transform: translateY(0%);
     }
 }
 @keyframes spin-up{

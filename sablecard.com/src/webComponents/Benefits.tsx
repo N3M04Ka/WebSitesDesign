@@ -1,4 +1,4 @@
-import wholeFoodsImg from '../assets/images/wholefoods.png'
+import wholeFoodsImg from '../assets/images/wholefoods2.png'
 import spotifyImg from '../assets/images/spotify.png'
 import amazonImg from '../assets/images/amazon.png'
 import netflixImg from '../assets/images/netflix.png'
@@ -28,15 +28,6 @@ export default function Benefits() {
           <div className="leftColumn">
             <div aria-hidden className="group">
               <div className="brand">
-                <img src={uberImg} alt="" />
-              </div>
-              <div className="brand">
-                <img src={uberEatsImg} alt="" />
-              </div>
-              <div className="brand">
-                <img src={netflixImg} alt="" />
-              </div>
-              <div className="brand">
                 <img src={wholeFoodsImg} alt="" />
               </div>
               <div className="brand">
@@ -44,19 +35,19 @@ export default function Benefits() {
               </div>
               <div className="brand">
                 <img src={amazonImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberEatsImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={netflixImg} alt="" />
               </div>
             </div>
             <div className="group">
               <div className="brand">
-                <img src={uberImg} alt="" />
-              </div>
-              <div className="brand">
-                <img src={uberEatsImg} alt="" />
-              </div>
-              <div className="brand">
-                <img src={netflixImg} alt="" />
-              </div>
-              <div className="brand">
                 <img src={wholeFoodsImg} alt="" />
               </div>
               <div className="brand">
@@ -64,12 +55,58 @@ export default function Benefits() {
               </div>
               <div className="brand">
                 <img src={amazonImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberEatsImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={netflixImg} alt="" />
               </div>
             </div>
           </div>
           <div className="rightColumn">
+            <div aria-hidden className="group">
+              <div className="brand">
+                <img src={netflixImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberEatsImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={amazonImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={spotifyImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={wholeFoodsImg} alt="" />
+              </div>
+            </div>
             <div className="group">
-              
+              <div className="brand">
+                <img src={netflixImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberEatsImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={uberImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={amazonImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={spotifyImg} alt="" />
+              </div>
+              <div className="brand">
+                <img src={wholeFoodsImg} alt="" />
+              </div>
             </div>
           </div>
         </div>

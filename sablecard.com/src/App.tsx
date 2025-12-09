@@ -1,4 +1,6 @@
 import Advantages from "./webComponents/Advantages"
+import Benefits from "./webComponents/Benefits"
+import CreditCards from "./webComponents/CreditCards"
 import Header from "./webComponents/Header"
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <>
       <Header/>
       <Advantages/>
+      <CreditCards/>
+      <Benefits/>
     </>
   )
 }

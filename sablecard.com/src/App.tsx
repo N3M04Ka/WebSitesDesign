@@ -1,7 +1,10 @@
 import Advantages from "./webComponents/Advantages"
 import Benefits from "./webComponents/Benefits"
+import Comparation from "./webComponents/Comparation"
 import CreditCards from "./webComponents/CreditCards"
+import Download from "./webComponents/Download"
 import Header from "./webComponents/Header"
+import Reviews from "./webComponents/Reviews"
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Advantages/>
       <CreditCards/>
       <Benefits/>
+      <Comparation/>
+      <Reviews/>
+      <Download/>
     </>
   )
 }

@@ -3,6 +3,7 @@ import Benefits from "./webComponents/Benefits"
 import Comparation from "./webComponents/Comparation"
 import CreditCards from "./webComponents/CreditCards"
 import Download from "./webComponents/Download"
+import Footer from "./webComponents/Footer"
 import Header from "./webComponents/Header"
 import Reviews from "./webComponents/Reviews"
 
@@ -16,6 +17,7 @@ function App() {
       <Comparation/>
       <Reviews/>
       <Download/>
+      <Footer/>
     </>
   )
 }

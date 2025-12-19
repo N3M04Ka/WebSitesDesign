@@ -240,3 +240,296 @@ button{
     from{transform: translateY(0%);}
     to{transform: translateY(-100%);}
 }
+.experience{
+    background-color: white;
+    @include flex-col-center;
+    height: 2270px;
+    justify-content: center;
+    .container{
+        @include flex-col-center;
+        h1{
+            font-size: 248px;
+            font-weight: 300;
+            line-height: 0.85;
+            margin-bottom: 50px;
+            span{
+                font-size: 64px;
+            }
+        }
+        .cardsLayout,.lastRow{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:24px;
+            width: 100%;
+            margin:12px 0;
+            >div{
+                padding:40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap:7px;
+                box-sizing: border-box;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+                overflow: hidden;
+                h2{
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 300;
+                    color:rgb(0,0,0,0.7);
+                    width: 340px;
+                    line-height: 1.5;
+                }
+            }
+            .card1{
+                background-image:url('assets/images/div.jpg');
+                grid-column: span 2;
+                height: 480px;
+            }
+            .card2,.card3{
+                height: 612px;
+            }
+            .card2{
+                background-image: url('assets/images/feelings.jpg');
+                width: 732px;
+            }
+            .card3{
+                background: linear-gradient(180deg,rgb(0,0,0) 0%,rgb(255,255,255) 100%);
+                h2{
+                    color:white;
+                }
+                p{
+                    color:rgb(255,255,255,0.65);
+                }
+                img{
+                    &:nth-child(3){
+                        position: absolute;
+                        top:50%;
+                        left:50%;
+                        transform: translate(-50%,-50%);
+                        width:240px;
+                    }
+                    &:nth-child(4){
+                        position:absolute;
+                        left: 50%;
+                        bottom:0;
+                        width:320px;
+                        border-radius: 10px;
+                        transform: translate(-50%,10%);
+                    }
+                }
+            }
+            .card4,.card5{
+                height: 363px;
+                position:relative;
+            }
+            .card4{
+                background-image: url('assets/images/blur3.jpg');
+                width: 628px;
+                h2,p{
+                    color:white;
+                }
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    width: 110%;
+                    left:50%;
+                    transform: translate(-50%,0);
+                }
+            }
+            .card5{
+                background-image: url('assets/images/blur4.jpg');
+                width: 100%;
+                p{
+                    width: 300px;
+                }
+                img{
+                    position:absolute;
+                    right:0;
+                    top:0;
+                    width: 280px;
+                }
+            }
+        }
+        button{
+            margin-top: 50px;
+            border-radius: 64px;
+            border:1px solid rgb(0,0,0,0.1);
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding:15px 24px;
+            align-items: center;
+            p{
+                font-size: 16px;
+                font-weight: normal;
+                color:black;
+            }
+            .arrow{
+                font-size: 25px;
+            }
+        }
+    }
+}
+.customerStories{
+    @include flex-col-center;
+    background-color: black;
+    height: 900px;
+    .container{
+        height: 100%;
+        width: 1440px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .info{
+            width: 640px;
+            height: 290px;
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            >*{
+                font-weight: 300;
+                width: fit-content;
+            }
+            h2{
+                font-size: 56px;
+                color:white;
+            }
+            h3{
+                font-size: 22px;
+                color:rgb(255,255,255,0.65);
+            }
+            button{
+                background-color: black;
+                padding: 15px 20px;
+                border-radius: 64px;
+                border:1px solid rgb(255,255,255,0.2);
+                color:white;
+            }
+        }
+        img{
+            height: 900px;
+            position: absolute;
+            right:0;
+        }
+    }
+}
+.features{
+    height: 2040px;
+    background-color: black;
+    @include flex-col-center;
+    .container{
+        @include flex-col-center;
+        height: inherit;
+        padding:100px 0;
+        justify-content: space-between;
+        >*{
+            width: 100%;
+            color:white;
+        }
+        h2{
+            font-size: 44px;
+            font-weight: 400;
+        }
+        h1{
+            font-size: 236px;
+            line-height: 210px;
+            font-weight: 300;
+            &:nth-child(3){
+                text-align: end;
+            }
+        }
+        .layout{
+            display: grid;
+            width: 100%;
+            grid-template-columns:repeat(3,1fr);
+            gap:24px;
+            >*{
+                padding: 40px;
+            }
+            .cardWide{
+                grid-column: span 3;
+                background-image: url('assets/images/div1.jpg');
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position:left;
+                height: 550px;
+                >*{
+                    width: 260px;
+                }
+                h2{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color:black;
+                    line-height: 26px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    color:rgb(0,0,0,0.7);
+                    line-height: 21px;
+                }
+            }
+            .card{
+                background-color: rgb(255,255,255,0.08);
+                height: 485px;
+                position: relative;
+                overflow: hidden;
+                box-sizing: border-box;
+                h2{
+                    color:white;
+                    line-height: 26px;
+                    font-size: 19px;
+                    font-weight: 300;
+                    margin-bottom: 6px;
+                }
+                p{
+                    color:rgb(255,255,255,0.65);
+                    font-size: 16px;
+                    line-height: 21px;
+                    font-weight: 300;
+                    width: 303px;
+                }
+                img{
+                    position: absolute;
+                    width: 444px;
+                    bottom: -20px;
+                    border:1px solid rgb(255,255,255,0.2);
+                    border-radius: 12px;
+                }
+                &:nth-child(2){
+                    img{
+                        bottom:-40px;
+                    }
+                }
+            }
+        }
+        button{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border:1px solid rgb(255,255,255,0.2);
+            border-radius: 64px;
+            width: fit-content;
+            background-color: black;
+            gap:10px;
+            padding:13px 20px;
+            span{
+                font-size: 16px;
+                font-weight: 400;
+                color:white;
+                line-height: 1;
+            }
+            .arrow{
+                color:white;
+                font-size: 25px;
+            }
+        }
+    }
+}

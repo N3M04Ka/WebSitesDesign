@@ -5,6 +5,7 @@ import DemoPlayer from "./webComponents/DemoPlayer"
 import Experience from "./webComponents/Experience"
 import Features from "./webComponents/Features"
 import Header from "./webComponents/Header"
+import LoveAndTrusted from "./webComponents/LoveAndTrusted"
 import Partners from "./webComponents/Partners"
 import Revenue from "./webComponents/Revenue"
 import Steps from "./webComponents/Steps"
@@ -22,6 +23,7 @@ function App() {
       <Revenue/>
       <Steps/>
       <DataIntegration/>
+      <LoveAndTrusted/>
     </>
   )
 }

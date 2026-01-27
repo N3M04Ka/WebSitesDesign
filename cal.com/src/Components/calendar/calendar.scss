@@ -1,0 +1,61 @@
+$black1:#141414;
+$white1:#F4F4F4;
+.calendar{
+    width: 650px;
+    height: 350px;
+    box-sizing: border-box;
+    border:2px solid $black1;
+    border-radius: 38px;
+    box-shadow: 0 0 0 5px $white1,0 0 0 7px #E1E1E1;
+    position: absolute;
+    top:0;
+    right:20px;
+    display: flex;
+    .left{
+        width: 290px;
+        height: 100%;
+        padding:30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right:3px solid #E1E1E1;
+        img{
+            height: 28px;
+            width: 28px;
+        }
+        .name{
+            font-family: "Roboto", sans-serif;
+            color:#494949;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .text1{
+            color:$black1;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        ol{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 180px;
+            li{
+                display: flex;
+                gap:10px;
+                .icon{
+                    width: 20px;
+                    flex-shrink: 0;
+                    font-size: 100px;
+                    color:#3E3E3E;
+                    height: fit-content;
+                }
+                .text2{
+                    color:$black1;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

@@ -1,61 +1,138 @@
-$black1:#141414;
-$white1:#F4F4F4;
-.calendar{
-    width: 650px;
-    height: 350px;
-    box-sizing: border-box;
-    border:2px solid $black1;
-    border-radius: 38px;
-    box-shadow: 0 0 0 5px $white1,0 0 0 7px #E1E1E1;
-    position: absolute;
-    top:0;
-    right:20px;
-    display: flex;
-    .left{
-        width: 290px;
-        height: 100%;
-        padding:30px;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border-right:3px solid #E1E1E1;
-        img{
-            height: 28px;
-            width: 28px;
-        }
-        .name{
-            font-family: "Roboto", sans-serif;
-            color:#494949;
-            font-size: 16px;
-            font-weight: 400;
-        }
-        .text1{
-            color:$black1;
-            font-size: 22px;
-            font-weight: 500;
-        }
-        ol{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 180px;
-            li{
-                display: flex;
-                gap:10px;
-                .icon{
-                    width: 20px;
-                    flex-shrink: 0;
-                    font-size: 100px;
-                    color:#3E3E3E;
-                    height: fit-content;
-                }
-                .text2{
-                    color:$black1;
-                    font-size: 15px;
-                    font-weight: 500;
-                }
-            }
-        }
-    }
+$black1: #141414;
+$white1: #f4f4f4;
+.calendar {
+	width: 650px;
+	height: 350px;
+	box-sizing: border-box;
+	border: 2px solid $black1;
+	border-radius: 38px;
+	box-shadow:
+		0 0 0 5px $white1,
+		0 0 0 7px #e1e1e1;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 20px;
+	display: flex;
+	>.left {
+		width: 290px;
+		height: 100%;
+		padding: 30px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		border-right: 3px solid #e1e1e1;
+		img {
+			height: 28px;
+			width: 28px;
+		}
+		.name {
+			font-family: "Roboto", sans-serif;
+			color: #494949;
+			font-size: 16px;
+			font-weight: 400;
+		}
+		.text1 {
+			color: $black1;
+			font-size: 22px;
+			font-weight: 500;
+		}
+		ol {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 180px;
+			li {
+				display: flex;
+				gap: 10px;
+				.icon {
+					width: 20px;
+					flex-shrink: 0;
+					font-size: 100px;
+					color: #3e3e3e;
+					height: fit-content;
+				}
+				.text2 {
+					color: $black1;
+					font-size: 15px;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	.calendarHolder {
+		display: flex;
+		flex-direction: column;
+		padding:24px;
+		box-sizing: border-box;
+		flex: 1 1 0;
+		.topRow {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			height: 32px;
+			.left{
+				p{
+					span{
+						font-weight: 600;
+						font-size: 16px;
+					}
+					font-size: 15px;
+					font-weight: 400;
+					font-family: "Roboto";
+					color:$black1;
+				}
+			}
+			.buttons{
+				display: flex;
+				justify-content: center;
+				align-items: centere;
+				gap:5px;
+				>*{
+					border:none;
+					color:#6B7280;
+					background-color: transparent;
+					padding:5px;
+					cursor: pointer;
+					transition: color 0.1s ease-in;
+					&:hover{
+						color: $black1;
+					}
+				}
+			}
+		}
+		.layout{
+			display: grid;
+			grid-template-columns: repeat(7,1fr);
+			grid-template-rows: repeat(6,1fr);
+			flex: 1 1 0;
+			gap:3px;
+			.label{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 15px;
+				color:$black1;
+				font-weight: 600;
+			}
+			.dayUnit{
+				background-color: transparent;
+				font-size: 16px;
+				font-family: "Roboto";
+				font-weight: 500;
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				cursor:pointer;
+				color:#3e3e3e;
+				/* background-color:#6B7280; */
+				border-radius: 8px;
+				&:hover{
+					color:black;
+				}
+			}
+		}
+	}
 }

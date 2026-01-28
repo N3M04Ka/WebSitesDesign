@@ -3,6 +3,7 @@ import { FiInfo } from "react-icons/fi";
 import { FiClock } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { GoGlobe } from "react-icons/go";
+import CalendarHolder from './CalendarHolder';
 export default function Calendar() {
   return (
     <div className="calendar">
@@ -29,9 +30,7 @@ export default function Calendar() {
           </li>
         </ol>
       </div>
-      <div className="right">
-        
-      </div>
+      <CalendarHolder/>
     </div>
   );
 }

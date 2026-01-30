@@ -42,7 +42,7 @@ export default function Footer() {
 						<a href="#">Docker</a>
 					</div>
 					<div className="column">
-						<p className="columnName">resources</p>
+						<p className="columnName">Resources</p>
 						<a href="#">Blog</a>
 						<a href="#">Merch Store</a>
 						<a href="#">Open Startup</a>
